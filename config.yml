@@ -1,7 +1,11 @@
 ---
 :redis:
-  :host: localhost
+  # :host: localhost
+  :host: lavista.dyn.pivotallabs.com
+  # :username: pivotalcb
   :port: 6379
 :storage:
   :provider: :local
   :local_root: storage
+
+:max_retries: 0
