@@ -1,7 +1,8 @@
 ---
 :redis:
   # :host: localhost
-  :host: lavista.dyn.pivotallabs.com
+  # :host: lavista.dyn.pivotallabs.com
+  :host: nassau
   # :username: pivotalcb
   :port: 6379
 :storage:
